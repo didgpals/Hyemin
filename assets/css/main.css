@@ -93,11 +93,11 @@ span.ds-department{ color: #373737; font-weight: 500; font-size: 18px; padding-b
   6. >>> Work Style
 ----------------------------------------------------------------*/
 .ds-work-section{ padding-bottom: 80px; }
-.ds-work-list{ padding-left: 70px; padding-top:40px; padding-right: 70px; background-color:#F6F8FA; margin-bottom: 40px; }
+.ds-work-list{ padding-left: 70px; padding-top:40px; padding-right: 70px; padding-bottom:30px; background-color:#F6F8FA; margin-bottom: 40px; }
 .ds-work-list section{ padding-top: 20px; padding-right: 120px; }
 .ds-work-tilte{ color: #000; font-size: 30px; line-height: 36px; font-weight: 600; margin-bottom: 30px; }
 .ds-work-list p{ font-weight: 300; font-size: 18px; line-height: 30px; }
-.ds-work-list .ds-button{ margin-top: 20px; }
+.ds-work-list .ds-button{ margin-top: 20px; margin-right:10px; }
 
 .ds-work-det-hed{ padding-top: 42px; padding-bottom: 80px; }
 .ds-work-det-title{ font-weight: 600; color:#000; font-size: 48px; margin-bottom: 20px; }
@@ -138,6 +138,9 @@ span.ds-department{ color: #373737; font-weight: 500; font-size: 18px; padding-b
 .ds-tool li.js{
 	background: #f0db4f;
 }
+.ds-tool li.react img{
+	object-fit: contain;
+}
 /*-----------------------------------------------------------------
   7. >>> Footer Style
 ----------------------------------------------------------------*/
@@ -149,6 +152,9 @@ span.ds-department{ color: #373737; font-weight: 500; font-size: 18px; padding-b
 .ds-copyright{ color: rgba(255,255,255,0.5); letter-spacing: 1px; font-size: 16px; }
 .ds-copyright a{color: rgba(255,255,255,0.5);}
 .ds-copyright a:hover{ color: #F26464; }
+.ds-footer .contact{
+	margin-right:10px;
+}
 
 
 
