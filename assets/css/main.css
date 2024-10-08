@@ -121,6 +121,7 @@ span.ds-department{ color: #373737; font-weight: 500; font-size: 18px; padding-b
 	background: #fff;
 	border-radius:50%;
 	text-align:center;
+	overflow:hidden;
 }
 .ds-tool li img{
 	width:36px;
@@ -140,6 +141,12 @@ span.ds-department{ color: #373737; font-weight: 500; font-size: 18px; padding-b
 }
 .ds-tool li.react img{
 	object-fit: contain;
+}
+.ds-tool li.photoshop{
+	background: #001e36;
+}
+.ds-tool li.illustrator{
+	background: #330000;
 }
 /*-----------------------------------------------------------------
   7. >>> Footer Style
