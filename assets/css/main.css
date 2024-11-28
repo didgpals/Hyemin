@@ -385,7 +385,18 @@ span.ds-department {
   word-break: keep-all;
 }
 .ds-work-list p:nth-of-type(2) {
+  display:list-item;
   font-size: 14px;
+  margin-left:16px;
+  list-style-type:disc;
+}
+
+.ds-work-list p:nth-of-type(3) {
+  display:list-item;
+  font-size: 14px;
+  margin-left:16px;
+  margin-top:-16px;
+  list-style-type:disc;
 }
 .ds-work-list .ds-button {
   margin-top: 20px;
@@ -492,13 +503,13 @@ span.ds-department {
   padding-bottom: 80px;
 }
 
-.portfolio .portfolio-filters {
+.portfolio .portfolio-filters, .portfolio-filters {
   padding: 0;
   margin: 0 auto 20px auto;
   list-style: none;
   text-align: right;
 }
-.portfolio .portfolio-filters li {
+.portfolio .portfolio-filters li ,.portfolio-filters a {
   cursor: pointer;
   display: inline-block;
   padding: 8px 20px 10px 20px;
@@ -513,8 +524,10 @@ span.ds-department {
 }
 
 .portfolio .portfolio-filters li:hover,
-.portfolio .portfolio-filters li.filter-active {
-  color: white;
+.portfolio .portfolio-filters li.filter-active,
+.portfolio-filters a:hover,
+.portfolio-filters a.filter-active {
+  color: white !important;
   background-color: #fdaa47;
 }
 

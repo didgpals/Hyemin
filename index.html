@@ -93,6 +93,10 @@
                 <li>
                   <strong>3</strong>
                   <span>Personal Projects</span>
+                </li>    
+                <li>
+                  <strong>7</strong>
+                  <span>Design</span>
                 </li>
               </ul>
             </section>
@@ -108,13 +112,13 @@
         <section>
           <h2 class="ds-heading">About me</h2>
           <p>
-            안녕하세요 저는 신입 UI/UX 디자이너 겸 퍼블리셔 양혜민입니다.<br />
-            저는 꾸준한 학습과 다양한 프로젝트 경험을 통해 디자인 영역과
+            안녕하세요 저는 신입 <b>UI/UX 디자이너</b> 겸 <b>퍼블리셔 </b>양혜민입니다.<br />
+            저는 <b>꾸준한 학습</b>과 <b>다양한 프로젝트 경험</b>을 통해 디자인 영역과
             퍼블리싱 영역을 향상시켜왔습니다.<br />
-            특히, K 디지털를 통한 팀프로젝트에서 사용자를 생각한 디자인을
-            배웠으며, 실전에서 배운 실무 경험으로 팀워크의 중요성을
-            깨달았습니다. 이러한 경험을 쌓으며 부족한 부분을 계속해서 배워나가는
-            퍼블리셔가 되도록 하겠습니다.
+            특히, K 디지털을 통한 팀프로젝트에서 <b>사용자를 생각한 디자인</b>을
+            배웠으며, <b>실전에서 배운 실무 경험</b>으로 <b>팀워크의 중요성</b>을
+            깨달았습니다.<br>이러한 경험을 쌓으며 부족한 부분을 계속해서 고쳐나아가는
+            디자이너 겸퍼블리셔가 되도록 하겠습니다.
           </p>
         </section>
       </div>
@@ -155,8 +159,14 @@
     <div class="ds-work-section">
       <div class="container">
         <h2 class="ds-heading">UI/UX Project</h2>
+        <div class="portfolio-filters project-filter">
+            <a data-filter="*" class="filter-all">All</a>
+            <a data-filter="filter-personal">Personal</a>
+            <a data-filter="filter-team">Team</a>
+          </div>
         <div class="ds-work-list-section">
-          <div class="ds-work-list">
+          
+          <div class="ds-work-list" data-type="filter-personal">
             <div class="row">
               <div
                 class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7"
@@ -165,13 +175,14 @@
                   <h3 class="ds-work-tilte">함께하는 한숲</h3>
                   <p>
                     함께하는 한숲 봉사 사이트 리뉴얼 개인 반응형
-                    웹사이트입니다.<br />
-                    기존 사이트에서는 2000년대 형식의 홈페이지 구성이였다면<br />
+                    웹사이트입니다.
+                    기존 사이트에서는 2000년대 형식의 홈페이지 구성이였다면
                     리뉴얼 후에는 어린이들의 후원을 주로 받는 봉사단체이기
-                    때문에 <br />
+                    때문에
                     좀 더 친근하고 다가가기 쉽도록 구성하여 제작하였습니다.
                   </p>
-                  <p>디자인 및 퍼블리싱 기여도 100%</p>
+                  <p>디자인 기여도 100%</p>
+                 <p> 퍼블리싱 기여도 100%</p>
                   <ul class="ds-tool">
                     <li class="figma">
                       <img src=" assets/images/figma.png" alt="figma" />
@@ -210,7 +221,7 @@
               </div>
             </div>
           </div>
-          <div class="ds-work-list">
+          <div class="ds-work-list" data-type="filter-personal">
             <div class="row">
               <div
                 class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7"
@@ -219,13 +230,14 @@
                   <h3 class="ds-work-tilte">야마하 뮤직 코리아</h3>
                   <p>
                     야마하 뮤직 코리아 악기 사이트 리뉴얼 개인 반응형
-                    웹사이트입니다.<br />
+                    웹사이트입니다.
                     기존에는 모든 정보를 메인페이지에 넣어 복잡한 형태를 이루고
-                    있으나 <br />
+                    있으나
                     리뉴얼 후에는 맞춤형 서비스로 악기를 추천해주는 섹션과
                     핵심요소만 메인페이지에 나타내었습니다.
                   </p>
-                  <p>디자인 및 퍼블리싱 기여도 100%</p>
+                  <p>디자인 기여도 100%</p>
+                 <p> 퍼블리싱 기여도 100%</p>
                   <ul class="ds-tool">
                     <li class="figma">
                       <img src=" assets/images/figma.png" alt="figma" />
@@ -263,7 +275,7 @@
               </div>
             </div>
           </div>
-          <div class="ds-work-list">
+          <div class="ds-work-list" data-type="filter-personal">
             <div class="row">
               <div
                 class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7"
@@ -271,10 +283,10 @@
                 <section>
                   <h3 class="ds-work-tilte">코레일톡</h3>
                   <p>
-                    코레일톡 열차 예매 앱 리뉴얼 개인 앱디자인입니다.<br />
-                    기존에는 예매 창이 다소 어렵고 불편하여<br />
-                    다른 사용자들의 컴플레인이 많았습니다.<br />
-                    하지만 리뉴얼 후 예매 창에서 사용성을 개선하였고, <br />또한
+                    코레일톡 열차 예매 앱 리뉴얼 개인 앱디자인입니다.
+                    기존에는 예매 창이 다소 어렵고 불편하여
+                    다른 사용자들의 컴플레인이 많았습니다.
+                    하지만 리뉴얼 후 예매 창에서 사용성을 개선하였고,또한
                     관광상품에 대한 내용을 보기 쉽도록 구성하였습니다.
                   </p>
                   <p>디자인 기여도 100%</p>
@@ -298,23 +310,19 @@
               </div>
             </div>
           </div>
-          <div class="ds-work-list">
+          <div class="ds-work-list"  data-type="filter-team">
             <div class="row">
               <div
-                class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7"
+                class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7 item"
               >
                 <section>
                   <h3 class="ds-work-tilte">테렌즈 그룹웨어</h3>
                   <p>
-                    테렌즈 사내 그룹웨어 웹 리뉴얼 팀 프로젝트입니다.<br />
-                    실무 프로젝트로 다크모드 그룹웨어를 의뢰 받아
-                    클라이언트와의<br />
-                    소통을 통해 제작하였습니다.
+                    테렌즈 사내 그룹웨어 웹 리뉴얼 팀 프로젝트입니다.
+                    실무 프로젝트로 다크모드 그룹웨어를 의뢰 받아 클라이언트와의 소통을 통해 제작하였습니다.
                   </p>
-                  <p>
-                    디자인 기여도 10%<br />
-                    퍼블리싱 기여도 100%
-                  </p>
+                  <p>디자인 기여도 10%</p>
+                 <p> 퍼블리싱 기여도 100%</p>
                   <ul class="ds-tool">
                     <li class="figma">
                       <img src=" assets/images/figma.png" alt="figma" />
@@ -353,29 +361,28 @@
                 </section>
               </div>
               <div
-                class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5"
+                class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5 item"
               >
                 <figure><img src="assets/images/work-4.jpg" /></figure>
               </div>
             </div>
           </div>
-          <div class="ds-work-list">
+          <div class="ds-work-list"  data-type="filter-team">
             <div class="row">
               <div
                 class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7"
-              >
+               data-type="team"
+                >
                 <section>
                   <h3 class="ds-work-tilte">아르고스케어 알림장앱</h3>
                   <p>
                     아르고스 주야간보호센터 알림장앱 리뉴얼 팀
-                    프로젝트입니다.<br />실무 프로젝트로 시니어 주야간 보호센터
+                    프로젝트입니다. 실무 프로젝트로 시니어 주야간 보호센터
                     알림장을 의뢰 받아 클라이언트와의 소통을 통해
                     제작하였습니다.
                   </p>
-                  <p>
-                    디자인 기여도 20%<br />
-                    퍼블리싱 기여도 40%
-                  </p>
+                  <p>디자인 기여도 25%</p>
+                 <p> 퍼블리싱 기여도 40%</p>
                   <ul class="ds-tool">
                     <li class="figma">
                       <img src=" assets/images/figma.png" alt="figma" />
@@ -417,13 +424,14 @@
                 </section>
               </div>
               <div
-                class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5"
-              >
+                class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5 item"
+              data-type="team"
+                >
                 <figure><img src="assets/images/work-5.jpg" /></figure>
               </div>
             </div>
           </div>
-          <div class="ds-work-list">
+          <div class="ds-work-list"  data-type="filter-team">
             <div class="row">
               <div
                 class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7"
@@ -431,14 +439,12 @@
                 <section>
                   <h3 class="ds-work-tilte">STRIKE</h3>
                   <p>
-                    STRIKE 러닝 앱 자체제작 팀 프로젝트입니다.<br />
-                    "삶과 러닝을 연결짓다"라는 뜻으로 러닝을 쉽게 즐기고<br />
+                    STRIKE 러닝 앱 자체제작 팀 프로젝트입니다.
+                    "삶과 러닝을 연결짓다"라는 뜻으로 러닝을 쉽게 즐기고
                     다양한 러닝에 대한 정보를 제공받을 수 있도록 만들었습니다.
                   </p>
-                  <p>
-                    디자인 기여도 20%<br />
-                    퍼블리싱 기여도 40%
-                  </p>
+                  <p>디자인 기여도 20%</p>
+                 <p> 퍼블리싱 기여도 40%</p>
                   <ul class="ds-tool">
                     <li class="figma">
                       <img src=" assets/images/figma.png" alt="figma" />
@@ -483,7 +489,8 @@
     <section id="portfolio" class="portfolio section">
       <!-- Section Title -->
       <div class="container section-title">
-        <h2>Portfolio</h2><p>*상세 페이지의 경우 돋보기 클릭후 한번더 클릭시 확대되어 스크롤되며 전체를 볼 수 있습니다. </p>
+        <h2 class="ds-heading">Design</h2>
+        <p>*상세 페이지와 BX의 경우 돋보기 클릭후 한번더 클릭시 확대되어 스크롤로 전체를 볼 수 있습니다. </p>
       </div>
       <!-- End Section Title -->
 
@@ -498,11 +505,31 @@
             <li data-filter="*" class="filter-active">All</li>
             <li data-filter=".filter-banner">Banner</li>
             <li data-filter=".filter-detail">Detail</li>
-            <li data-filter=".filter-ux">UX</li>
+            <li data-filter=".filter-promotion">Promotion</li><li data-filter=".filter-bx">BX</li>
           </ul>
           <!-- End Portfolio Filters -->
 
           <div class="row gy-4 isotope-container">
+            
+            <div
+              class="col-lg-4 col-md-6 portfolio-item isotope-item filter-promotion"
+            >
+              <img
+                src="assets/images/masonry-portfolio/summer-promotion.jpg"
+                class="img-fluid"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <h4>SUMMER 프로모션</h4>
+                <a
+                  href="assets/images/masonry-portfolio/summer-promotion.jpg"
+                  data-gallery="portfolio-gallery-branding"
+                  class="glightbox preview-link"
+                  ><i class="bi bi-zoom-in"></i
+                ></a>
+              </div>
+            </div>
+            <!-- End Portfolio Item --> 
             <div
               class="col-lg-4 col-md-6 portfolio-item isotope-item filter-detail"
             >
@@ -531,7 +558,7 @@
             <!-- End Portfolio Item -->
 
             <div
-              class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product"
+              class="col-lg-4 col-md-6 portfolio-item isotope-item filter-detail"
             >
               <img
                 src="assets/images/masonry-portfolio/masonry-portfolio-2.jpg"
@@ -539,17 +566,16 @@
                 alt=""
               />
               <div class="portfolio-info">
-                <h4>Product 1</h4>
-                <p>Lorem ipsum, dolor sit</p>
+                <h4>BOSE 헤드셋</h4>
+                <p>상세 페이지</p>
                 <a
-                  href="assets/images/masonry-portfolio/masonry-portfolio-2.jpg"
-                  title="Product 1"
+                  href="assets/images/masonry-portfolio/bose-detail.jpg"
                   data-gallery="portfolio-gallery-product"
                   class="glightbox preview-link"
                   ><i class="bi bi-zoom-in"></i
                 ></a>
                 <a
-                  href="portfolio-details.html"
+                  href="https://didgpals98.cafe24.com/skin-skin1/product/bose-qc-%ED%97%A4%EB%93%9C%ED%8F%B0/15/category/1/display/2/"
                   title="More Details"
                   class="details-link"
                   ><i class="bi bi-link-45deg"></i
@@ -559,7 +585,7 @@
             <!-- End Portfolio Item -->
 
             <div
-              class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding"
+              class="col-lg-4 col-md-6 portfolio-item isotope-item filter-detail"
             >
               <img
                 src="assets/images/masonry-portfolio/masonry-portfolio-3.jpg"
@@ -567,17 +593,16 @@
                 alt=""
               />
               <div class="portfolio-info">
-                <h4>Branding 1</h4>
-                <p>Lorem ipsum, dolor sit</p>
+                <h4>SONY 헤드셋</h4>
+                <p>상세 페이지</p>
                 <a
-                  href="assets/images/masonry-portfolio/masonry-portfolio-3.jpg"
-                  title="Branding 1"
+                  href="assets/images/masonry-portfolio/sony-detail.jpg"
                   data-gallery="portfolio-gallery-branding"
                   class="glightbox preview-link"
                   ><i class="bi bi-zoom-in"></i
                 ></a>
                 <a
-                  href="portfolio-details.html"
+                  href="https://didgpals98.cafe24.com/skin-skin1/product/%EC%86%8C%EB%8B%88-wh-ch720h/11/category/1/display/2/"
                   title="More Details"
                   class="details-link"
                   ><i class="bi bi-link-45deg"></i
@@ -587,25 +612,23 @@
             <!-- End Portfolio Item -->
 
             <div
-              class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
+              class="col-lg-4 col-md-6 portfolio-item isotope-item filter-banner"
             >
               <img
-                src="assets/images/masonry-portfolio/masonry-portfolio-4.jpg"
+                src="assets/images/masonry-portfolio/sale_banner.jpg"
                 class="img-fluid"
                 alt=""
               />
               <div class="portfolio-info">
-                <h4>App 2</h4>
-                <p>Lorem ipsum, dolor sit</p>
+                <h4>SUMMER 세일 배너</h4>
                 <a
-                  href="assets/images/masonry-portfolio/masonry-portfolio-4.jpg"
-                  title="App 2"
+                  href="assets/images/masonry-portfolio/sale_banner.jpg"
                   data-gallery="portfolio-gallery-app"
                   class="glightbox preview-link"
                   ><i class="bi bi-zoom-in"></i
                 ></a>
                 <a
-                  href="portfolio-details.html"
+                  href="https://didgpals98.cafe24.com/skin-skin1"
                   title="More Details"
                   class="details-link"
                   ><i class="bi bi-link-45deg"></i
@@ -615,25 +638,23 @@
             <!-- End Portfolio Item -->
 
             <div
-              class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product"
+              class="col-lg-4 col-md-6 portfolio-item isotope-item filter-banner"
             >
               <img
-                src="assets/images/masonry-portfolio/masonry-portfolio-5.jpg"
+                src="assets/images/masonry-portfolio/new_banner.jpg"
                 class="img-fluid"
                 alt=""
               />
               <div class="portfolio-info">
-                <h4>Product 2</h4>
-                <p>Lorem ipsum, dolor sit</p>
+                <h4>SONY 신상품 배너</h4>
                 <a
-                  href="assets/images/masonry-portfolio/masonry-portfolio-5.jpg"
-                  title="Product 2"
+                  href="assets/images/masonry-portfolio/new_banner.jpg"
                   data-gallery="portfolio-gallery-product"
                   class="glightbox preview-link"
                   ><i class="bi bi-zoom-in"></i
                 ></a>
                 <a
-                  href="portfolio-details.html"
+                  href="https://didgpals98.cafe24.com/skin-skin1"
                   title="More Details"
                   class="details-link"
                   ><i class="bi bi-link-45deg"></i
@@ -642,113 +663,23 @@
             </div>
             <!-- End Portfolio Item -->
 
-            <div
-              class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding"
-            >
-              <img
-                src="assets/images/masonry-portfolio/masonry-portfolio-6.jpg"
-                class="img-fluid"
-                alt=""
-              />
-              <div class="portfolio-info">
-                <h4>Branding 2</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a
-                  href="assets/images/masonry-portfolio/masonry-portfolio-6.jpg"
-                  title="Branding 2"
-                  data-gallery="portfolio-gallery-branding"
-                  class="glightbox preview-link"
-                  ><i class="bi bi-zoom-in"></i
-                ></a>
-                <a
-                  href="portfolio-details.html"
-                  title="More Details"
-                  class="details-link"
-                  ><i class="bi bi-link-45deg"></i
-                ></a>
-              </div>
-            </div>
-            <!-- End Portfolio Item -->
 
             <div
-              class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
+              class="col-lg-4 col-md-6 portfolio-item isotope-item filter-bx"
             >
               <img
-                src="assets/images/masonry-portfolio/masonry-portfolio-7.jpg"
+                src="assets/images/masonry-portfolio/bx-nobrand.jpg"
                 class="img-fluid"
                 alt=""
               />
               <div class="portfolio-info">
-                <h4>App 3</h4>
-                <p>Lorem ipsum, dolor sit</p>
+                <h4>No Brand</h4>
+                <p>BX</p>
                 <a
-                  href="assets/images/masonry-portfolio/masonry-portfolio-7.jpg"
-                  title="App 3"
+                  href="assets/images/masonry-portfolio/bx-nobrand-guide.jpg"
                   data-gallery="portfolio-gallery-app"
                   class="glightbox preview-link"
                   ><i class="bi bi-zoom-in"></i
-                ></a>
-                <a
-                  href="portfolio-details.html"
-                  title="More Details"
-                  class="details-link"
-                  ><i class="bi bi-link-45deg"></i
-                ></a>
-              </div>
-            </div>
-            <!-- End Portfolio Item -->
-
-            <div
-              class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product"
-            >
-              <img
-                src="assets/images/masonry-portfolio/masonry-portfolio-8.jpg"
-                class="img-fluid"
-                alt=""
-              />
-              <div class="portfolio-info">
-                <h4>Product 3</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a
-                  href="assets/images/masonry-portfolio/masonry-portfolio-8.jpg"
-                  title="Product 3"
-                  data-gallery="portfolio-gallery-product"
-                  class="glightbox preview-link"
-                  ><i class="bi bi-zoom-in"></i
-                ></a>
-                <a
-                  href="portfolio-details.html"
-                  title="More Details"
-                  class="details-link"
-                  ><i class="bi bi-link-45deg"></i
-                ></a>
-              </div>
-            </div>
-            <!-- End Portfolio Item -->
-
-            <div
-              class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding"
-            >
-              <img
-                src="assets/images/masonry-portfolio/masonry-portfolio-9.jpg"
-                class="img-fluid"
-                alt=""
-              />
-              <div class="portfolio-info">
-                <h4>Branding 3</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a
-                  href="assets/images/masonry-portfolio/masonry-portfolio-9.jpg"
-                  title="Branding 2"
-                  data-gallery="portfolio-gallery-branding"
-                  class="glightbox preview-link"
-                  ><i class="bi bi-zoom-in"></i
-                ></a>
-                <a
-                  href="portfolio-details.html"
-                  title="More Details"
-                  class="details-link"
-                  ><i class="bi bi-link-45deg"></i
                 ></a>
               </div>
             </div>
@@ -760,77 +691,6 @@
       
     </section>
     <!-- /Portfolio Section -->
-    <div class="ds-work-section">
-      <div class="container">
-        <h2 class="ds-heading">Design</h2>
-        <div class="ds-work-list-section">
-          <div class="ds-work-list">
-            <div class="row">
-              <div
-                class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7"
-              >
-                <section>
-                  <h3 class="ds-work-tilte">CAFE 24</h3>
-                  <p>
-                    카페 24를 통하여 배너 및 상세페이지를 제작하였습니다.
-                    <br />
-                  </p>
-                  <p>디자인 기여도 100%<br /></p>
-                  <ul class="ds-tool">
-                    <li class="photoshop">
-                      <img src="assets/images/photoshop.png" alt="figma" />
-                    </li>
-                    <li class="illustrator">
-                      <img src="assets/images/illustrator.png" alt="figma" />
-                    </li>
-                  </ul>
-                  <a
-                    href="https://didgpals98.cafe24.com/skin-skin1"
-                    class="ds-button"
-                    >웹페이지 보기</a
-                  >
-                </section>
-              </div>
-              <div
-                class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5"
-              >
-                <figure><img src="assets/images/work-6.jpg" /></figure>
-              </div>
-            </div>
-          </div>
-          <div class="ds-work-list">
-            <div class="row">
-              <div
-                class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7"
-              >
-                <section>
-                  <h3 class="ds-work-tilte">BX 디자인 - No Brand</h3>
-                  <p>노브랜드 BX디자인 리뉴얼입니다.<br /></p>
-                  <p>디자인 기여도 100%<br /></p>
-                  <ul class="ds-tool">
-                    <li class="photoshop">
-                      <img src="assets/images/photoshop.png" alt="figma" />
-                    </li>
-                    <li class="illustrator">
-                      <img src="assets/images/illustrator.png" alt="figma" />
-                    </li>
-                  </ul>
-                  <a href="works-setails.html" class="ds-button" target="_blank"
-                    >작업물 보기</a
-                  >
-                </section>
-              </div>
-              <div
-                class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5"
-              >
-                <figure><img src="assets/images/work-7.jpg" /></figure>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--  Work -->
 
     <!--  footer -->
     <footer class="ds-footer text-center">
