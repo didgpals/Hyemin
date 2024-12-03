@@ -116,4 +116,22 @@
   }
   window.addEventListener("load", navmenuScrollspy);
   document.addEventListener("scroll", navmenuScrollspy);
+const itemTab = document.querySelector(".project-filter");
+const items = document.querySelector(".ds-work-list-section");
+const item = document.querySelectorAll(".ds-work-list");
+
+itemTab.addEventListener("click", (e) => {
+  const filter = e.target.dataset.filter || e.target.parentNode.dataset.filter;
+  if (filter == null) {
+    return;
+  }
+  item.forEach((item) => {
+    if (filter === "*" || filter === item.dataset.type) {
+      item.style.display = "block";
+    } else {
+      item.style.display = "none";
+    }
+  });
+});
+
 })();
