@@ -7,7 +7,6 @@
  */
 
 (function () {
-  ("use strict");
 
   const lightbox = GLightbox({
     selector: ".glightbox",
@@ -116,7 +115,9 @@
   }
   window.addEventListener("load", navmenuScrollspy);
   document.addEventListener("scroll", navmenuScrollspy);
-const itemTab = document.querySelector(".project-filter");
+
+
+  const itemTab = document.querySelector(".project-filter");
 const items = document.querySelector(".ds-work-list-section");
 const item = document.querySelectorAll(".ds-work-list");
 
@@ -133,5 +134,9 @@ itemTab.addEventListener("click", (e) => {
     }
   });
 });
-
+  
+  $(".project-filter a").on("click", function () {
+        $(this).addClass("filter-active").siblings().removeClass("filter-active");
+    });
+      
 })();
